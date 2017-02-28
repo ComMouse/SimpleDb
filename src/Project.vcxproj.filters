@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\container">
+      <UniqueIdentifier>{0eff7340-961d-4f45-9305-997a4c581356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\storage">
+      <UniqueIdentifier>{15b4a56d-39b6-4de3-9059-2cd7863132d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{4c63182d-b409-4f87-b8a0-3dadc6901bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\storage">
+      <UniqueIdentifier>{d37b3316-c3bc-4704-936c-c256856637c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tests">
+      <UniqueIdentifier>{47fcf113-27e0-427e-abc1-50371b37702b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tests">
+      <UniqueIdentifier>{78fd4162-407b-4bbf-a27f-b2f4e3b2d8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\memory">
+      <UniqueIdentifier>{6aa9f275-6200-475f-939a-08e4e77ecb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\memory">
+      <UniqueIdentifier>{d8216ee3-b3c5-4c3a-ba81-006c5786e758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\storage\hash">
+      <UniqueIdentifier>{f135f5bd-1e84-4257-8815-599e59c7a046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\storage\hash">
+      <UniqueIdentifier>{1ace9e74-65df-4b47-8e13-085639b75af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\db">
+      <UniqueIdentifier>{f5b03199-06df-4d66-ad84-ea067f77b6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\db">
+      <UniqueIdentifier>{3abb438d-9926-4a04-9f15-7b68d8e0494f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\DbFile.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\DbRecord.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\dbfile_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\File.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\hashtable_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\DbFreeList.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\Cache.cpp">
+      <Filter>源文件\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\CacheManager.cpp">
+      <Filter>源文件\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\SyncStrategy.cpp">
+      <Filter>源文件\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\DbPage.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\hash\IndexPage.cpp">
+      <Filter>源文件\storage\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\hash\IndexFile.cpp">
+      <Filter>源文件\storage\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\hash\IndexFreeList.cpp">
+      <Filter>源文件\storage\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\hash\IndexNode.cpp">
+      <Filter>源文件\storage\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\indexfile_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\dbhash_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\performance_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\btree_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="db\HashTableDb.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\write_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\delete_test.cpp">
+      <Filter>源文件\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="container\HashTable.h">
+      <Filter>头文件\container</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\Cursor.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\DbFile.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="util\debug.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\DbRecord.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="util\error.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\common.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\test.h">
+      <Filter>头文件\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\File.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="container\Vector.h">
+      <Filter>头文件\container</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\DbFreeList.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\Cache.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\CacheManager.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\SyncStrategy.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\DbPage.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\hash\IndexPage.h">
+      <Filter>头文件\storage\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\hash\IndexFile.h">
+      <Filter>头文件\storage\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\hash\IndexFreeList.h">
+      <Filter>头文件\storage\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\IndexFile.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\IndexFreeList.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\IndexNode.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\IndexPage.h">
+      <Filter>头文件\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\hash\IndexNode.h">
+      <Filter>头文件\storage\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="db\HashTableDb.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="container\BTree.h">
+      <Filter>头文件\container</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
